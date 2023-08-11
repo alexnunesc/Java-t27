@@ -9,6 +9,12 @@ class Tipos {
     boolean verdadero = true;
     boolean falso = false;
 
+    // tipos não primitivos
+    String texto = "Alex";
+    String[] nomes = new String[5];  // Array com capacidade para 5 nomes
+    String[] nomes2 = {"Alex", "João", "Maria", "José", "Pedro"}; // Array
+    // com 5 nomes
+
     // Metodo print com concatenação
     System.out.printf("%d %f Faz o L ", numero, decimal);
 
@@ -16,6 +22,8 @@ class Tipos {
 
     // quebra de linha
     // \n
+
+    strg(); // chamando o método strg
   }
     public static void strg(String[] args) {
       double a = 2.356; // double inicializado naturalmente
@@ -24,7 +32,4 @@ class Tipos {
       System.out.println(doubleRecebendoFloat); // 1.409000039100647
       System.out.println(doubleRecebendoLong); // 12930.0
     }
-
-
-
 }
