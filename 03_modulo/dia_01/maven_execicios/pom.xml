@@ -1,0 +1,7 @@
+<projet>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>alex</groupId>
+    <artifactId>alex--webapp</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+</projet>
